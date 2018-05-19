@@ -48,8 +48,8 @@ export default class Booking extends Component {
       <View contaainer={false}>
         <div className="pt-md-2">
           <Helmet
-            title="Bookings | Foot Right Podiatry"
-            meta={[{ name: 'Bookings | Foot Right Podiatry', content: 'Bookings | Foot Right Podiatry' }]}
+            title="Bookings | Maquarie Health Chiropractor"
+            meta={[{ name: 'Bookings | Maquarie Health Chiropractor', content: 'Bookings | Maquarie Health Chiropractor' }]}
           />
           <Container>
             <Iframe

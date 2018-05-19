@@ -68,7 +68,7 @@ export default class Page extends Component {
           <div className="pt-md-2">
             <Helmet
               title={page.title[0].text}
-              meta={[{ name: 'description', content: 'Foot Right Podiatry' }]}
+              meta={[{ name: 'description', content: 'Maquarie Health Chiropractor' }]}
             />
             <Container>
               <Breadcrumbs items={this.props.breadcrumbs} />

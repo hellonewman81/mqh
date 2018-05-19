@@ -66,7 +66,7 @@ export default class About extends Component {
           <div>
             <Helmet
               title="About"
-              meta={[{ name: 'About Foot Right Podiatry', content: 'About Podiatry; North Ryde, Ryde, Maquarie park, top ryde, marsfield, Maquarie Centre' }]}
+              meta={[{ name: 'About Maquarie Health Chiropractor', content: 'About Podiatry; North Ryde, Ryde, Maquarie park, top ryde, marsfield, Maquarie Centre' }]}
             />
             {/* page.image &&
             North Ryde, Ryde, Maquarie park, top ryde, marsfield, Maquarie Centre
@@ -84,7 +84,7 @@ export default class About extends Component {
               <div className="container">
                 <div className="intro-text" style={{ paddingTop: '20vh' }}>
                   <div className="intro-lead-in">About</div>
-                  <div className="intro-heading text-uppercase">Foot Right Podiatry</div>
+                  <div className="intro-heading text-uppercase">Maquarie Health Chiropractor</div>
                 </div>
               </div>
             </header>
