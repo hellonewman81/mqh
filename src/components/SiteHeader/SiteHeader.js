@@ -44,8 +44,8 @@ export default class Example extends React.Component {
         >
           <Container>
             <NavbarBrand href="/">
-              <img src={brandLogo} alt="Maquarie Health" className={styles.siteLogo} />
-              Macquarie Main
+              {/* <img src={brandLogo} alt="Maquarie Health" className={styles.siteLogo} /> */}
+              Macquarie Health Professionals
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
