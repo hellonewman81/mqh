@@ -59,7 +59,7 @@ export default class Home extends Component {
     zoom: 14,
     greatPlaceCoords: { lat: -33.776752, lng: 151.120515 }
   };
-  //  https://www.google.com.au/maps/dir/''/Foot+Right+Podiatry,+Shop+1044B,+level+1+upper,+Macquarie+Shopping+Centre,+Macquarie+Park+NSW+2113/@11.98z/data=!4m8!4m7!1m0!1m5!1m1!1s0x6b12a60db3ffffff:0xa7c7c0221f9308cf!2m2!1d151.121023!2d-33.7769179
+
   render() {
     const { page } = this.props;
     const styles = require('./Home.scss');
@@ -126,7 +126,7 @@ export default class Home extends Component {
                     </span>
                     <h4 className="service-heading">Location</h4>
                     <p className="text-muted">
-                      Maquarie Health Chiropractor is the leading Podiatry practice in Sydney's Macquarie
+                      Maquarie Health Chiropractor is the leading Chiropractor practice in Sydney's Macquarie
                       Park. It is conveniently located inside Macquarie Health Professionals - an
                       allied health clinic located at Macquarie Shopping Centre.
                     </p>
@@ -173,7 +173,7 @@ export default class Home extends Component {
                 <Row className="mb-5">
                   <Col xs={12} className="text-center">
                     <h2 className="section-heading text-uppercase">Services</h2>
-                    <h3 className="section-subheading text-muted">Some of our podiatry services</h3>
+                    <h3 className="section-subheading text-muted">Some of our chiropractor services</h3>
                   </Col>
                 </Row>
                 <Row>

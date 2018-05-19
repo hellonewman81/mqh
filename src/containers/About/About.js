@@ -66,7 +66,7 @@ export default class About extends Component {
           <div>
             <Helmet
               title="About"
-              meta={[{ name: 'About Maquarie Health Chiropractor', content: 'About Podiatry; North Ryde, Ryde, Maquarie park, top ryde, marsfield, Maquarie Centre' }]}
+              meta={[{ name: 'About Maquarie Health Chiropractor', content: 'About Chiropractor; North Ryde, Ryde, Maquarie park, top ryde, marsfield, Maquarie Centre' }]}
             />
             {/* page.image &&
             North Ryde, Ryde, Maquarie park, top ryde, marsfield, Maquarie Centre
