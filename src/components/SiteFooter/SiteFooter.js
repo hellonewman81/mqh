@@ -25,11 +25,13 @@ export default class SiteFooter extends React.Component {
                 <li>
                   <a href="/contact">Contact us</a>
                 </li>
+                {/*
                 <li>
                   <a href="/services">Services</a>
                 </li>
+                */}
                 <li>
-                  <a href="/services">Blog</a>
+                  <a href="/blog">Blog</a>
                 </li>
                 <li>
                   <a href="/bookings">Bookings</a>

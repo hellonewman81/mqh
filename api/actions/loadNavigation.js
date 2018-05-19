@@ -1,8 +1,7 @@
 import Prismic from 'prismic-javascript';
 
-const apiEndpoint = 'https://footright.prismic.io/api/v2';
-const apiToken =
-  'MC5XcHN5Q3lnQUFDb0F5Ml9x.YxJF77-977-977-977-977-9WGPvv70gczvvv70nMl7vv73vv70beRrvv73vv73vv73vv70D77-9UO-_ve-_vQ';
+const apiEndpoint = 'https://mqchiro.prismic.io/api/v2';
+const apiToken = 'MC5Xdi1xekNBQUFPM1ZoTktv.X2UI77-9Hzjvv70nNu-_ve-_vXnvv71sfe-_vWgbL07vv71X77-9Tu-_ve-_vRDvv70J77-977-9Ug';
 
 const getData = async req => {
   console.log(req);

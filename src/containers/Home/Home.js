@@ -156,7 +156,7 @@ export default class Home extends Component {
                     <p className="text-muted">
                       Our culture of professional development and continuing education ensures you
                       will always receive the most up to date and evidence based treatments. Our
-                      podiatrists regularly attend conferences, courses and in-house education
+                      chiros regularly attend conferences, courses and in-house education
                       sessions.
                     </p>
                   </div>
@@ -167,7 +167,7 @@ export default class Home extends Component {
             <Container className="my-5">
               {RichText.render(page.body, linkResolver)}
             </Container>
-            */}
+
             <section className="bg-light" id="portfolio">
               <Container>
                 <Row className="mb-5">
@@ -202,6 +202,8 @@ export default class Home extends Component {
                 </p>
               </Container>
             </section>
+            */}
+
             <section className="bg-primary py-0" id="location">
               <Row>
                 <Col xs={12} sm={6} lg={7} className="text-center">

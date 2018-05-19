@@ -31,7 +31,7 @@ export default class Example extends React.Component {
   }
   render() {
     const styles = require('./siteHeader.scss');
-    const brandLogo = require('./foot-right-podiatry-logo.png');
+    const brandLogo = require('./1571059281927746457_o.png');
 
     return (
       <div id="header" className={styles.siteHeader}>
@@ -49,9 +49,11 @@ export default class Example extends React.Component {
                 <NavItem>
                   <NavLink href="/about">About</NavLink>
                 </NavItem>
+                {/*
                 <NavItem>
                   <NavLink href="/services">Services</NavLink>
                 </NavItem>
+                */}
                 <NavItem>
                   <NavLink href="/conditions">Conditions</NavLink>
                 </NavItem>
