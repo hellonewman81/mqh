@@ -1,18 +1,18 @@
 {
-  "name": "foot-right-podiatry-website",
-  "description": "foot-right-podiatry-website",
+  "name": "mqh-chiro",
+  "description": "mqh-chiro",
   "author": "Andrew Newman",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hellonewman81/frp"
+    "url": "https://github.com/hellonewman81/mqh"
   },
-  "homepage": "https://github.com/hellonewman81/frp",
+  "homepage": "https://github.com/hellonewman81/mqh",
   "main": "bin/server.js",
   "scripts": {
     "start": "concurrently --kill-others \"npm run start-prod\" \"npm run start-prod-api\"",
-    "start-prod": "cross-env NODE_PATH=src NODE_ENV=production BASE_URL=http://www.footrightpodiatry.com.au PORT=9009 APIPORT=3030 node ./bin/server.js",
-    "start-prod-api": "cross-env NODE_PATH=api NODE_ENV=production APIPORT=3030 node ./bin/api.js",
+    "start-prod": "cross-env NODE_PATH=src NODE_ENV=production BASE_URL=http://www.footrightpodiatry.com.au PORT=9099 APIPORT=3031 node ./bin/server.js",
+    "start-prod-api": "cross-env NODE_PATH=api NODE_ENV=production APIPORT=3031 node ./bin/api.js",
     "dev": "concurrently --kill-others \"npm run watch-client\" \"npm run start-dev\" \"npm run start-dev-api\"",
     "start-dev": "cross-env NODE_PATH=src NODE_ENV=development BASE_URL= PORT=3000 APIPORT=3030 WEBPACK_DLLS=1 node ./bin/server.js",
     "start-dev-api": "cross-env NODE_PATH=api NODE_ENV=development APIPORT=3030 node ./bin/api.js",
