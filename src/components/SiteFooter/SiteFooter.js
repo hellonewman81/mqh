@@ -55,7 +55,7 @@ export default class SiteFooter extends React.Component {
             <p>
               <b>Phone:</b> (02) 9887 2270
             </p>
-            <p>Copyright &copy; 2018 footrightpodiatry.com.au</p>
+            <p>Copyright &copy; 2018 mq-chiro.com.au</p>
           </div>
         </div>
       </footer>

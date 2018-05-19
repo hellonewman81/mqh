@@ -10,7 +10,7 @@ const labels = {
 
 const vehicleOptions = async postBody => {
   const makeRequest = request.defaults({
-    baseUrl: 'http://www.footrightpodiatry.com.au/service/filters/page',
+    baseUrl: 'http://www.mq-chiro.com.au/service/filters/page',
     method: 'GET',
     json: true
   });

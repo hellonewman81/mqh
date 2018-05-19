@@ -148,7 +148,7 @@ var webpackConfig = module.exports = {
     new webpack.IgnorePlugin(/webpack-stats\.json$/),
 
     new webpack.DefinePlugin({
-      'process.env.BASE_URL': '"http://www.footrightpodiatry.com.au"',
+      'process.env.BASE_URL': '"http://www.mq-chiro.com.au"',
       __CLIENT__: true,
       __SERVER__: false,
       __DEVELOPMENT__: true,

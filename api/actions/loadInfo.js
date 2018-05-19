@@ -53,7 +53,7 @@ const getCategory = async location => {
     ...catObj,
     algoliaQuery: urlToSearchState(location.search),
     urlLocation: location,
-    baseUrl: 'http://www.footrightpodiatry.com.au/parts/'
+    baseUrl: 'http://www.mq-chiro.com.au/parts/'
   };
 
   return categoryData;

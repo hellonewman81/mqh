@@ -5,7 +5,7 @@ const getModalContent = async path => {
   // @TODO store the access token.
   // A request instance that talks to mint API
   const makeRequest = request.defaults({
-    baseUrl: 'http://www.footrightpodiatry.com.au/jaxxer/guide/',
+    baseUrl: 'http://www.mq-chiro.com.au/jaxxer/guide/',
     method: 'GET',
     json: true // Automatically stringifies the body to JSON
   });
