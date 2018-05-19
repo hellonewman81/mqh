@@ -1,0 +1,8 @@
+.siteHeader {
+  .siteLogo {
+    max-width: 225px;
+  }
+  :global('.bg-dark'){
+    background-color: #333;
+  }
+}
