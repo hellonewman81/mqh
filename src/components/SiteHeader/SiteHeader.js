@@ -35,7 +35,13 @@ export default class Example extends React.Component {
 
     return (
       <div id="header" className={styles.siteHeader}>
-        <Navbar color="light" fixed="top" light expand="md" style={{ borderBottom: '1px solid #ccc' }}>
+        <Navbar
+          color="light"
+          fixed="top"
+          light
+          expand="md"
+          style={{ borderBottom: '1px solid #ccc' }}
+        >
           <Container>
             <NavbarBrand href="/">
               <img src={brandLogo} alt="Maquarie Health Chiropractor" className={styles.siteLogo} />
@@ -82,7 +88,9 @@ export default class Example extends React.Component {
                   <NavLink href="/contact">Contact</NavLink>
                 </NavItem>
                 <NavItem>
-                  <a href="/booking" className="btn btn-primary">Book Now</a>
+                  <a href="/booking" className="btn btn-primary">
+                    Book Now
+                  </a>
                 </NavItem>
               </Nav>
             </Collapse>

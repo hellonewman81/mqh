@@ -126,9 +126,9 @@ export default class Home extends Component {
                     </span>
                     <h4 className="service-heading">Location</h4>
                     <p className="text-muted">
-                      Maquarie Health Chiropractor is the leading Chiropractor practice in Sydney's Macquarie
-                      Park. It is conveniently located inside Macquarie Health Professionals - an
-                      allied health clinic located at Macquarie Shopping Centre.
+                      Maquarie Health Chiropractor is the leading Chiropractor practice in Sydney's
+                      Macquarie Park. It is conveniently located inside Macquarie Health
+                      Professionals - an allied health clinic located at Macquarie Shopping Centre.
                     </p>
                   </div>
                   <div className="col-md-4">
@@ -156,8 +156,7 @@ export default class Home extends Component {
                     <p className="text-muted">
                       Our culture of professional development and continuing education ensures you
                       will always receive the most up to date and evidence based treatments. Our
-                      chiros regularly attend conferences, courses and in-house education
-                      sessions.
+                      chiros regularly attend conferences, courses and in-house education sessions.
                     </p>
                   </div>
                 </div>
@@ -226,7 +225,8 @@ export default class Home extends Component {
                   <div className="px-3 px-sm-0">
                     <h2 className="section-heading h4 mb-4">Location</h2>
                     <p className="mb-1">
-                      Maquarie Health Chiropractor, (located inside Macquarie Health Professionals) <br />
+                      Maquarie Health Chiropractor, (located inside Macquarie Health Professionals){' '}
+                      <br />
                       Shop 1044B level 1 upper, Macquarie Shopping Centre <br />
                       Macquarie Park, NSW 2113 <br />
                     </p>
