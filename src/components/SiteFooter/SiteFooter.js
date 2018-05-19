@@ -40,7 +40,7 @@ export default class SiteFooter extends React.Component {
               <h5 className="footer-heading">Social</h5>
               <ul className="list-inline">
                 <li>
-                  <a href="https://www.facebook.com/macquariepodiatry/">
+                  <a href="https://www.facebook.com/macquariechiro/">
                     <i className="fa fa-facebook-square fa-2x" /> Facebook
                   </a>
                 </li>
