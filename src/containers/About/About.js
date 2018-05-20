@@ -83,8 +83,8 @@ export default class About extends Component {
               className="masthead"
               style={{
                 backgroundImage: `url(${page.hero_image.url})`,
-                height: '50vh',
-                minHeight: '50vh'
+                height: '70vh',
+                minHeight: '70vh'
               }}
             >
               <div className="container">
@@ -103,22 +103,20 @@ export default class About extends Component {
               <div className="container">
                 <div className="row">
                   <div className="col-lg-12 text-center">
-                    <h2 className="section-heading text-uppercase">Our Practitioners</h2>
-                    <h3 className="section-subheading text-muted">Meet the team.</h3>
+                    <h2 className="section-heading text-uppercase mb-4">Meet the team.</h2>
+                    <h3 className="section-subheading text-muted"></h3>
                   </div>
                 </div>
                 <div className="row">
                   <div className="col-lg-12">
-                    <ul className="timeline">
+                    <div className="row">
                       {page.practitioners &&
                         page.practitioners.map((item, idx) => (
-                          <li className={idx % 2 === 0 ? 'timeline-inverted' : ''}>
-                            <div className="timeline-image">
-                              <img
-                                className="rounded-circle img-fluid"
-                                src="img/about/1.jpg"
-                                alt=""
-                              />
+                          <div className={idx % 2 === 0 ? 'col-xs-12 col-sm-4 mb-3' : 'col-xs-12 col-sm-4 mb-3'}>
+                            <div className="mb-2">
+                              {item.image && item.image.url &&
+                                <img className="mw-100" src={item.image.url} />
+                              }
                             </div>
                             <div className="timeline-panel">
                               <div className="timeline-heading">
@@ -133,9 +131,9 @@ export default class About extends Component {
                                 </p>
                               </div>
                             </div>
-                          </li>
+                          </div>
                         ))}
-                    </ul>
+                    </div>
                   </div>
                 </div>
               </div>
