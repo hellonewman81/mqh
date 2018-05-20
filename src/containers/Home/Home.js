@@ -68,7 +68,7 @@ export default class Home extends Component {
         {page ? (
           <div>
             <Helmet
-              title="Maquarie Health Chiropractor"
+              title="Maquarie Health Professionals"
               meta={[
                 {
                   name: 'description',
@@ -82,14 +82,15 @@ export default class Home extends Component {
             <header
               className="masthead"
               style={{
-                backgroundImage: `url(${page.hero_image.url})`,
+                backgroundImage: `url(${page.hero_image.url})`
               }}
             >
               <div className="container">
                 <div className="intro-text">
                   <div className="intro-lead-in">Welcome To</div>
-                  <div className="intro-heading text-uppercase">Maquarie Health Chiropractor</div>
+                  <div className="intro-heading text-uppercase">Maquarie Health Professionals</div>
                   <Row>
+                    {/*
                     <Col xs={12} sm={12} className="">
                       <a
                         className="btn btn-primary d-block btn-xl mb-3 mb-md-0 d-md-inline-block mr-md-5 text-uppercase"
@@ -104,7 +105,7 @@ export default class Home extends Component {
                         Book Appointment
                       </a>
                     </Col>
-                    {/*
+
                     <Col xs={12} sm={6}>
 
                     </Col>
@@ -131,9 +132,8 @@ export default class Home extends Component {
                     </span>
                     <h4 className="service-heading">Location</h4>
                     <p className="text-muted">
-                      Maquarie Health Chiropractor is the leading Chiropractor practice in Sydney's
-                      Macquarie Park. It is conveniently located inside Macquarie Health
-                      Professionals - an allied health clinic located at Macquarie Shopping Centre.
+                      Maquarie Health Professionals is a leading practice in Sydney's Macquarie Park
+                      located within Macquarie Shopping Centre.
                     </p>
                   </div>
                   <div className="col-md-4">
@@ -160,24 +160,24 @@ export default class Home extends Component {
                     <h4 className="service-heading">Culture</h4>
                     <p className="text-muted">
                       Our culture of professional development and continuing education ensures you
-                      will always receive the most up to date and evidence based treatments. Our
-                      chiros regularly attend conferences, courses and in-house education sessions.
+                      will always receive the most up to date and evidence based treatments.
                     </p>
                   </div>
                 </div>
               </div>
             </section>
             {/*
+
             <Container className="my-5">
               {RichText.render(page.body, linkResolver)}
             </Container>
-
+*/}
             <section className="bg-light" id="portfolio">
               <Container>
                 <Row className="mb-5">
                   <Col xs={12} className="text-center">
                     <h2 className="section-heading text-uppercase">Services</h2>
-                    <h3 className="section-subheading text-muted">Some of our chiropractor services</h3>
+                    <h3 className="section-subheading text-muted">Our services</h3>
                   </Col>
                 </Row>
                 <Row>
@@ -199,14 +199,8 @@ export default class Home extends Component {
                       </div>
                     ))}
                 </Row>
-                <p className="text-center">
-                  <a className="btn btn-primary btn-xl text-uppercase" href="/services">
-                    See All Services
-                  </a>
-                </p>
               </Container>
             </section>
-            */}
 
             <section className="bg-primary py-0" id="location">
               <Row>
@@ -220,7 +214,7 @@ export default class Home extends Component {
                       <AnyReactComponent
                         lat={-33.776752}
                         lng={151.120515}
-                        text="Maquarie Health Chiropractor"
+                        text="Maquarie Health Professionals"
                         styles={styles}
                       />
                     </GoogleMapReact>
@@ -230,7 +224,7 @@ export default class Home extends Component {
                   <div className="px-3 px-sm-0">
                     <h2 className="section-heading h4 mb-4">Location</h2>
                     <p className="mb-1">
-                      Maquarie Health Chiropractor, (located inside Macquarie Health Professionals){' '}
+                      Maquarie Health Professionals, (located inside Macquarie Health Professionals){' '}
                       <br />
                       Shop 1044B level 1 upper, Macquarie Shopping Centre <br />
                       Macquarie Park, NSW 2113 <br />

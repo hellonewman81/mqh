@@ -71,11 +71,11 @@ export default class Services extends Component {
         {page ? (
           <div>
             <Helmet
-              title="Blog | Maquarie Health Chiropractor"
+              title="Blog | Maquarie Health Professionals"
               meta={[
                 {
-                  name: 'Blog | Maquarie Health Chiropractor',
-                  content: 'Blog | Maquarie Health Chiropractor'
+                  name: 'Blog | Maquarie Health Professionals',
+                  content: 'Blog | Maquarie Health Professionals'
                 }
               ]}
             />
@@ -86,14 +86,13 @@ export default class Services extends Component {
                 backgroundImage:
                   'url(https://prismic-io.s3.amazonaws.com/footright%2F6c8c48a7-b1a0-4521-98bb-df7aa14066f4_hero_blog.png)',
                 height: '50vh',
-                minHeight: '50vh',
+                minHeight: '50vh'
               }}
-
             >
               <div className="container">
-                <div className="intro-text" style={ {paddingTop: '20vh'} }>
+                <div className="intro-text" style={{ paddingTop: '20vh' }}>
                   <div className="intro-lead-in">Blog</div>
-                  <div className="intro-heading text-uppercase">Maquarie Health Chiropractor</div>
+                  <div className="intro-heading text-uppercase">Maquarie Health Professionals</div>
                 </div>
               </div>
             </header>
@@ -118,8 +117,9 @@ export default class Services extends Component {
                           <div className="portfolio-caption">
                             <h4>{RichText.render(item.data.title, linkResolver)}</h4>
                             {/* */}
-                            <p className="text-muted">{RichText.render(item.data.overview, linkResolver)}</p>
-
+                            <p className="text-muted">
+                              {RichText.render(item.data.overview, linkResolver)}
+                            </p>
                           </div>
                         </a>
                       </div>
@@ -135,7 +135,7 @@ export default class Services extends Component {
             <header className="masthead">
               <div className="container">
                 <div className="intro-text">
-                  <div className="intro-lead-in">Welcome To Maquarie Health Chiropractor!</div>
+                  <div className="intro-lead-in">Welcome To Maquarie Health Professionals!</div>
                   <div className="intro-heading text-uppercase">It's Nice To Meet You</div>
                   <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Services</a> <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Book Now</a>
                 </div>

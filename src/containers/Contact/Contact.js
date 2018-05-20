@@ -61,7 +61,10 @@ export default class Contact extends Component {
           <Helmet
             title="Contact"
             meta={[
-              { name: 'Contact | Maquarie Health Chiropractor', content: 'Contact | Maquarie Health Chiropractor' }
+              {
+                name: 'Contact | Maquarie Health Professionals',
+                content: 'Contact | Maquarie Health Professionals'
+              }
             ]}
           />
           <div className="py-4">
@@ -103,7 +106,7 @@ export default class Contact extends Component {
                     <AnyReactComponent
                       lat={-33.776752}
                       lng={151.120515}
-                      text="Maquarie Health Chiropractor"
+                      text="Maquarie Health Professionals"
                       styles={styles}
                     />
                   </GoogleMapReact>
@@ -113,7 +116,8 @@ export default class Contact extends Component {
                 <h2 className="section-heading h4 mb-4">Location</h2>
                 {/* <h3 className="section-subheading text-muted">located inside Macquarie Health Professionals.</h3> */}
                 <p className="mb-1">
-                  Maquarie Health Chiropractor, (located inside Macquarie Health Professionals) <br />
+                  Maquarie Health Professionals, (located inside Macquarie Health Professionals){' '}
+                  <br />
                   Shop 1044B level 1 upper, Macquarie Shopping Centre <br />
                   Macquarie Park, NSW 2113 <br />
                 </p>

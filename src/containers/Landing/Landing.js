@@ -68,7 +68,7 @@ export default class Landing extends Component {
           <div className="pt-md-2">
             <Helmet
               title={page.data.title[0].text}
-              meta={[{ name: 'description', content: 'Maquarie Health Chiropractor' }]}
+              meta={[{ name: 'description', content: 'Maquarie Health Professionals' }]}
             >
               <body lId={page.uid} />
             </Helmet>
