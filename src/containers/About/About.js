@@ -105,7 +105,7 @@ export default class About extends Component {
                 <div className="row">
                   <div className="col-lg-12 text-center">
                     <h2 className="section-heading text-uppercase mb-4">Meet the team.</h2>
-                    <h3 className="section-subheading text-muted"></h3>
+                    <h3 className="section-subheading text-muted" />
                   </div>
                 </div>
                 <div className="row">
@@ -113,11 +113,14 @@ export default class About extends Component {
                     <div className="row">
                       {page.practitioners &&
                         page.practitioners.map((item, idx) => (
-                          <div className={idx % 2 === 0 ? 'col-xs-12 col-sm-4 mb-4' : 'col-xs-12 col-sm-4 mb-4'}>
+                          <div
+                            className={
+                              idx % 2 === 0 ? 'col-xs-12 col-sm-4 mb-4' : 'col-xs-12 col-sm-4 mb-4'
+                            }
+                          >
                             <div className="mb-2">
-                              {item.image && item.image.url &&
-                                <img className="mw-100" src={item.image.url} />
-                              }
+                              {item.image &&
+                                item.image.url && <img className="mw-100" src={item.image.url} />}
                             </div>
                             <div className="timeline-panel">
                               <div className="timeline-heading">
@@ -127,21 +130,34 @@ export default class About extends Component {
                                 </div>
                               </div>
 
-                              {item.blurb[0] && item.blurb[0].text && item.blurb[0].text != '' &&
-                                <AboutModal
-                                  className="modal-lg"
-                                  buttonLabel="View Info"
-                                  modalTitle={RichText.render(item.name, linkResolver)}
-                                  modalImage={item.image && item.image.url ? <img className="mw-100 mb-5" src={item.image.url} alt={RichText.render(item.name, linkResolver)} /> : null}
-                                  bodyContent={<div>
-                                    <div className="timeline-body">
-                                      <p className="text-muted">
-                                        {RichText.render(item.blurb, linkResolver)}
-                                      </p>
-                                    </div>
-                                  </div>}
-                                />
-                              }
+                              {item.blurb[0] &&
+                                item.blurb[0].text &&
+                                item.blurb[0].text != '' && (
+                                  <AboutModal
+                                    className="modal-lg"
+                                    buttonLabel="View Info"
+                                    modalTitle={RichText.render(item.name, linkResolver)}
+                                    modalLead={RichText.render(item.lead, linkResolver)}
+                                    modalImage={
+                                      item.image && item.image.url ? (
+                                        <img
+                                          className="mw-100 mb-5"
+                                          src={item.image.url}
+                                          alt={RichText.render(item.name, linkResolver)}
+                                        />
+                                      ) : null
+                                    }
+                                    bodyContent={
+                                      <div>
+                                        <div className="timeline-body">
+                                          <p className="text-muted">
+                                            {RichText.render(item.blurb, linkResolver)}
+                                          </p>
+                                        </div>
+                                      </div>
+                                    }
+                                  />
+                                )}
                             </div>
                           </div>
                         ))}

@@ -22,16 +22,21 @@ class AboutModal extends React.Component {
   render() {
     return (
       <div>
-        <Button color="primary" onClick={this.toggle}>{this.props.buttonLabel}</Button>
+        <Button color="primary" onClick={this.toggle}>
+          {this.props.buttonLabel}
+        </Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>{this.props.modalTitle}</ModalHeader>
           <ModalBody>
             {this.props.modalImage && this.props.modalImage}
-            <h3>About {this.props.modalTitle}</h3>
-            {this.props.bodyContent}
+            {this.props.modalTitle && this.props.modalTitle}
+            {this.props.modalLead && this.props.modalLead}
+            {this.props.bodyContent && this.props.bodyContent}
           </ModalBody>
           <ModalFooter>
-            <Button color="secondary" onClick={this.toggle}>Close</Button>
+            <Button color="secondary" onClick={this.toggle}>
+              Close
+            </Button>
           </ModalFooter>
         </Modal>
       </div>
