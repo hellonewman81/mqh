@@ -31,12 +31,12 @@ export default class Example extends React.Component {
   }
   render() {
     const styles = require('./siteHeader.scss');
-    const brandLogo = require('./1571059281927746457_o.png');
+    const brandLogo = require('./1571059281927746457_o.jpg');
 
     return (
       <div id="header" className={styles.siteHeader}>
         <Navbar
-          color="light"
+          color="white"
           fixed="top"
           light
           expand="md"
@@ -44,8 +44,7 @@ export default class Example extends React.Component {
         >
           <Container>
             <NavbarBrand href="/">
-              {/* <img src={brandLogo} alt="Maquarie Health" className={styles.siteLogo} /> */}
-              Macquarie Health Professionals
+              <img src={brandLogo} alt="Maquarie Health" className={styles.siteLogo} />
             </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
