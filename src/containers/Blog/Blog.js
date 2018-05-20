@@ -90,7 +90,7 @@ export default class Services extends Component {
               }}
             >
               <div className="container">
-                <div className="intro-text" style={{ paddingTop: '20vh' }}>
+                <div className="intro-text">
                   <div className="intro-lead-in">Blog</div>
                   <div className="intro-heading text-uppercase">Maquarie Health Professionals</div>
                 </div>
