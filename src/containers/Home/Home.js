@@ -184,7 +184,7 @@ export default class Home extends Component {
                   {page.home_teaser &&
                     page.home_teaser.map(item => (
                       <div className="col-md-4 col-sm-6 portfolio-item">
-                        <a className="portfolio-link" href={Link.url(item.url, linkResolver)}>
+                        <a className="portfolio-link tmp" href={Link.url(item.url, linkResolver)}>
                           <div className="portfolio-hover">
                             <div className="portfolio-hover-content">
                               <i className="fa fa-plus fa-3x" />
@@ -201,7 +201,6 @@ export default class Home extends Component {
                 </Row>
               </Container>
             </section>
-
             <section className="bg-primary py-0" id="location">
               <Row>
                 <Col xs={12} sm={6} lg={7} className="text-center">
