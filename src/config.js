@@ -42,7 +42,7 @@ module.exports = Object.assign(
           { property: 'robots', content: 'INDEX, FOLLOW' },
           {
             property: 'google-site-verification',
-            content: 'OaySxtYDdqGFmLgV137w-6OpTOp4k1TbRS5HJ6KCG7k'
+            content: 'bGzKWfvL3vyQct3IIPbCoOz__jr5vjS41_NKsKS1hkI'
           }
         ]
         /* , link: [
