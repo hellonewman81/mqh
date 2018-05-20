@@ -116,7 +116,7 @@ export default class Contact extends Component {
                 <h2 className="section-heading h4 mb-4">Location</h2>
                 {/* <h3 className="section-subheading text-muted">located inside Macquarie Health Professionals.</h3> */}
                 <p className="mb-1">
-                  Maquarie Health Professionals, (located inside Macquarie Health Professionals){' '}
+                  Maquarie Health Professionals,{' '}
                   <br />
                   Shop 1044B level 1 upper, Macquarie Shopping Centre <br />
                   Macquarie Park, NSW 2113 <br />

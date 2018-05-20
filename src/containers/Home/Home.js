@@ -223,7 +223,7 @@ export default class Home extends Component {
                   <div className="px-3 px-sm-0">
                     <h2 className="section-heading h4 mb-4">Location</h2>
                     <p className="mb-1">
-                      Maquarie Health Professionals, (located inside Macquarie Health Professionals){' '}
+                      Maquarie Health Professionals,{' '}
                       <br />
                       Shop 1044B level 1 upper, Macquarie Shopping Centre <br />
                       Macquarie Park, NSW 2113 <br />
