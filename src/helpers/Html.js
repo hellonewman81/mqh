@@ -54,7 +54,7 @@ export default class Html extends Component {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="application-name" content="mq-chiro.com.au" />
           <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-          <meta name="apple-mobile-web-app-title" content="Maquarie Health Professionals" />
+          <meta name="apple-mobile-web-app-title" content="Macquarie Health Professionals" />
 
           <meta name="google-site-verification" content="bGzKWfvL3vyQct3IIPbCoOz__jr5vjS41_NKsKS1hkI" />
 
@@ -112,7 +112,7 @@ export default class Html extends Component {
             dangerouslySetInnerHTML={{
               __html:
                 '{"@context": "http://schema.org",' +
-                '"@type" : "WebSite","name" : "Maquarie Health Professionals","url" : "http://www.mq-chiro.com.au"}'
+                '"@type" : "WebSite","name" : "Macquarie Health Professionals","url" : "http://www.mq-chiro.com.au"}'
             }}
           />
         </head>

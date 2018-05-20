@@ -69,14 +69,14 @@ export default class About extends Component {
               title="About"
               meta={[
                 {
-                  name: 'About Maquarie Health Professionals',
+                  name: 'About Macquarie Health Professionals',
                   content:
-                    'About Chiropractor; North Ryde, Ryde, Maquarie park, top ryde, marsfield, Maquarie Centre'
+                    'About Chiropractor; North Ryde, Ryde, Macquarie park, top ryde, marsfield, Macquarie Centre'
                 }
               ]}
             />
             {/* page.image &&
-            North Ryde, Ryde, Maquarie park, top ryde, marsfield, Maquarie Centre
+            North Ryde, Ryde, Macquarie park, top ryde, marsfield, Macquarie Centre
               <img src={page.image.url} alt={page.image.alt} style={{ maxWidth: '100%' }} />
             */}
 
@@ -91,7 +91,7 @@ export default class About extends Component {
               <div className="container">
                 <div className="intro-text intro-text-alt">
                   <div className="intro-lead-in">About</div>
-                  <div className="intro-heading text-uppercase">Maquarie Health Professionals</div>
+                  <div className="intro-heading text-uppercase">Macquarie Health Professionals</div>
                 </div>
               </div>
             </header>

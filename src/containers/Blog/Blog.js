@@ -71,11 +71,11 @@ export default class Services extends Component {
         {page ? (
           <div>
             <Helmet
-              title="Blog | Maquarie Health Professionals"
+              title="Blog | Macquarie Health Professionals"
               meta={[
                 {
-                  name: 'Blog | Maquarie Health Professionals',
-                  content: 'Blog | Maquarie Health Professionals'
+                  name: 'Blog | Macquarie Health Professionals',
+                  content: 'Blog | Macquarie Health Professionals'
                 }
               ]}
             />
@@ -92,7 +92,7 @@ export default class Services extends Component {
               <div className="container">
                 <div className="intro-text intro-text-alt">
                   <div className="intro-lead-in">Blog</div>
-                  <div className="intro-heading text-uppercase">Maquarie Health Professionals</div>
+                  <div className="intro-heading text-uppercase">Macquarie Health Professionals</div>
                 </div>
               </div>
             </header>
@@ -135,7 +135,7 @@ export default class Services extends Component {
             <header className="masthead">
               <div className="container">
                 <div className="intro-text">
-                  <div className="intro-lead-in">Welcome To Maquarie Health Professionals!</div>
+                  <div className="intro-lead-in">Welcome To Macquarie Health Professionals!</div>
                   <div className="intro-heading text-uppercase">It's Nice To Meet You</div>
                   <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Services</a> <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Book Now</a>
                 </div>
