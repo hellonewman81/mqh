@@ -83,8 +83,8 @@ export default class About extends Component {
               className="masthead"
               style={{
                 backgroundImage: `url(${page.hero_image.url})`,
-                height: '70vh',
-                minHeight: '70vh'
+                height: '50vh',
+                minHeight: '50vh'
               }}
             >
               <div className="container">
@@ -95,7 +95,7 @@ export default class About extends Component {
               </div>
             </header>
 
-            <section className="py-7 bg-light">
+            <section className="py-7 bg-light body-content">
               <Container className="my-5">{RichText.render(page.body, linkResolver)}</Container>
             </section>
 
