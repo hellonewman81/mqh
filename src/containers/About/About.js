@@ -8,6 +8,7 @@ import GoogleMapReact from 'google-map-react';
 import { Row, Col, Container } from 'reactstrap';
 import { isLoaded as isPageLoaded, load as loadPage } from 'redux/modules/page';
 import View from 'components/View/View';
+import AboutModal from 'components/AboutModal/AboutModal';
 // import ModalLink from 'components/ModalLink/ModalLink';
 
 const AnyReactComponent = ({ text, styles }) => (
@@ -112,7 +113,7 @@ export default class About extends Component {
                     <div className="row">
                       {page.practitioners &&
                         page.practitioners.map((item, idx) => (
-                          <div className={idx % 2 === 0 ? 'col-xs-12 col-sm-4 mb-3' : 'col-xs-12 col-sm-4 mb-3'}>
+                          <div className={idx % 2 === 0 ? 'col-xs-12 col-sm-4 mb-4' : 'col-xs-12 col-sm-4 mb-4'}>
                             <div className="mb-2">
                               {item.image && item.image.url &&
                                 <img className="mw-100" src={item.image.url} />
@@ -125,11 +126,22 @@ export default class About extends Component {
                                   {RichText.render(item.lead, linkResolver)}
                                 </div>
                               </div>
-                              <div className="timeline-body">
-                                <p className="text-muted">
-                                  {RichText.render(item.blurb, linkResolver)}
-                                </p>
-                              </div>
+
+                              {item.blurb[0] && item.blurb[0].text && item.blurb[0].text != '' &&
+                                <AboutModal
+                                  className="modal-lg"
+                                  buttonLabel="View Info"
+                                  modalTitle={RichText.render(item.name, linkResolver)}
+                                  modalImage={item.image && item.image.url ? <img className="mw-100 mb-5" src={item.image.url} alt={RichText.render(item.name, linkResolver)} /> : null}
+                                  bodyContent={<div>
+                                    <div className="timeline-body">
+                                      <p className="text-muted">
+                                        {RichText.render(item.blurb, linkResolver)}
+                                      </p>
+                                    </div>
+                                  </div>}
+                                />
+                              }
                             </div>
                           </div>
                         ))}
