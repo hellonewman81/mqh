@@ -60,13 +60,14 @@ export default class Example extends React.Component {
                 <NavItem>
                   <NavLink href="/services">Services</NavLink>
                 </NavItem>
-                */}
+
                 <NavItem>
                   <NavLink href="/conditions">Conditions</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="/blog">Blog</NavLink>
                 </NavItem>
+                */}
                 {/*
                 border-bottom: 1px solid #8591a529;
                 <UncontrolledDropdown nav inNavbar>
@@ -88,11 +89,13 @@ export default class Example extends React.Component {
                 <NavItem>
                   <NavLink href="/contact">Contact</NavLink>
                 </NavItem>
+                {/*
                 <NavItem>
                   <a href="/booking" className="btn btn-primary">
                     Book Now
                   </a>
                 </NavItem>
+                */}
               </Nav>
             </Collapse>
           </Container>
