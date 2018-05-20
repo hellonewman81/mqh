@@ -193,7 +193,7 @@ export default class Home extends Component {
                           <img className="img-fluid" src={item.thumb.url} alt="" />
                           <div className="portfolio-caption">
                             {RichText.render(item.title, linkResolver)}
-                            <p className="text-muted">Read more</p>
+                            <p className="text-muted">View website</p>
                           </div>
                         </a>
                       </div>
