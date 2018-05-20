@@ -79,7 +79,12 @@ export default class Home extends Component {
             {/* page.image &&
               <img src={page.image.url} alt={page.image.alt} style={{ maxWidth: '100%' }} />
             */}
-            <header className="masthead">
+            <header
+              className="masthead"
+              style={{
+                backgroundImage: `url(${page.hero_image.url})`,
+              }}
+            >
               <div className="container">
                 <div className="intro-text">
                   <div className="intro-lead-in">Welcome To</div>
